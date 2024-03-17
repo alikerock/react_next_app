@@ -1,6 +1,7 @@
 // "use client";
 import Link from "next/link";
 import "./globals.css";
+import { Control } from "./Control";
 // import { useEffect, useState } from "react";
 
 export const metadata = {
@@ -36,11 +37,7 @@ export default async function RootLayout({ children }) {
           </ol>
         </nav>
         {children}
-        <ul>
-          <li><Link href="/create">Create</Link></li>
-          <li><Link href="/update/1">Update</Link></li>
-          <li><button>delete</button></li>
-        </ul>
+        <Control/>
 
         </body>
     </html>
