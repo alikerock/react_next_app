@@ -19,7 +19,7 @@ export default async function RootLayout({ children }) {
   //     setTopics(result);
   //   });
   // },[]);
-  const response = await fetch('http://localhost:9999/topics',{ next: { revalidate: 0 }});
+  const response = await fetch('http://localhost:9999/topics',{ cache: 'no-store' });
   const topics = await response.json();
 
   return (
