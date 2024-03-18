@@ -2,8 +2,8 @@
   "topics": [
     {
       "id": 1,
-      "title": "html수정",
-      "body": "html수정 is..."
+      "title": "html",
+      "body": "html"
     },
     {
       "id": 2,
@@ -11,9 +11,9 @@
       "body": "css is..."
     },
     {
-      "id": 3,
       "title": "javascript",
-      "body": "javascript is..."
+      "body": "javascript is ...",
+      "id": 3
     }
   ],
   "posts": [

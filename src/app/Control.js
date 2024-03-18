@@ -7,7 +7,7 @@ export function Control() {
   const router = useRouter();//2. useRouter 실행결과를 router객체에 할당
   const id = params.id; 
   return (
-    <ul>
+    <ul class="controls">
       <li><Link href="/create">Create</Link></li>
       {id ? <>
         <li><Link href={"/update/"+id}>Update</Link></li>
