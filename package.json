@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "server":"npx json-server@0.17.4 --port 9999 --watch db.json",
-    "vercel-deploy": "next build && next export"
+    "vercel-deploy": "next build"
   },
   "dependencies": {
     "react": "^18",
