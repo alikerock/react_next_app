@@ -1,4 +1,4 @@
-##2024.6.13 수업 완료본
+##2024.6.13 수업 완료본, vercel에 배포, koyeb의 json-server와 연동
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
